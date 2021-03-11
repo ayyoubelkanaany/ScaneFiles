@@ -1,0 +1,26 @@
+.good{
+  background-color: greenyellow;
+}
+.container-fluid{
+  margin-top: 100px;
+}
+
+.parent-div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.parent-div input[type=file] {
+  left: 0;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  font-size: 90px;
+}
+.btn-upload {
+  background-color: blue;
+  border: 3px solid blue;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+}
